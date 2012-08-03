@@ -74,7 +74,7 @@ def dump(data):
         out = '%f' % data
         return '%d:%s^' % (len(out), out)
     elif type(data) is str:
-        return '%d:' % len(data) + data + ',' 
+        return '%d:' % len(data) + data + ','
     elif type(data) is dict:
         return dump_dict(data)
     elif type(data) is list:
@@ -154,9 +154,9 @@ def parse_dict(data):
     while extra:
         key, value, extra = parse_pair(extra)
         result[key] = value
-  
+
     return result
-    
+
 
 
 def dump_dict(data):
