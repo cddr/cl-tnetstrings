@@ -8,11 +8,11 @@ Install
 
 Until Zach deems this suitable for inclusion in quicklisp, add it as a local-project
 
-$ cd ~/quicklisp/local-projects
-$ git clone https://github.com/cddr/cl-tnetstrings.git
-$ $LISP
-CL-USER> (ql:quickload "cl-tnetstrings")
-CL-USER> (asdf:operate 'asdf:test-op :cl-tnetstrings)
+    $ cd ~/quicklisp/local-projects
+    $ git clone https://github.com/cddr/cl-tnetstrings.git
+    $ $LISP
+    CL-USER> (ql:quickload "cl-tnetstrings")
+    CL-USER> (asdf:operate 'asdf:test-op :cl-tnetstrings)
 
 
 Usage
