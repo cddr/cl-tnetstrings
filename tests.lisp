@@ -9,7 +9,7 @@
           (float 42.0)
           (str "forty two")
           (list `(1 2 3))
-          (dict (dict :a 1 :b 2))
+          (dict (dict "a" 1 "b" 2))
           (true t)
           (false nil))
       (is int (parse (dump int)) "integer")
